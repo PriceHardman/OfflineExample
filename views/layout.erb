@@ -1,0 +1,25 @@
+<!doctype html>  
+<html lang="en" manifest="/manifest">  
+<head>  
+  <meta charset="utf8">
+  <script type="text/javascript" src="lawnchair.js"></script>
+  <script type="text/javascript" src="adaptors/webkit_sqlite.js"></script>
+  <script type="text/javascript" src="adaptors/memory.js"></script>
+  <script type="text/javascript" src="adaptors/dom.js"></script>
+  <script type="text/javascript" src="save_and_get.js"></script>
+  <title>Testing Client-Side Storage Using Lawnchair.js and the HTML5 AppCache</title>
+</head>  
+<body>  
+  <header>  
+    <hgroup>  
+      <h1>Testing Lawnchair.js</h1>  
+    </hgroup>  
+  </header>
+  <div id="main">  
+    <%= yield %>  
+  </div>  
+  <footer>  
+    <p><small>A sample app by Price Hardman</small></p>  
+  </footer>  
+</body>  
+</html>

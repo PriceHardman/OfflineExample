@@ -1,0 +1,14 @@
+CACHE MANIFEST
+#the paths of every file you want to be available offline.
+/adaptors/bb_persistant.js
+/adaptors/dom.js
+/adaptors/gears_sqlite.js
+/adaptors/ie-userdata.js
+/adaptors/memory.js
+/adaptors/webkit_sqlite.js
+/adaptors/window-name.js
+/lawnchair.js
+/save_and_get.js
+/
+/get
+/save
